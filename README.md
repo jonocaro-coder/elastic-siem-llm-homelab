@@ -66,6 +66,7 @@ Plantillas y reglas que definen qué información recibe el LLM y cómo debe pro
 - Scripts de automatización para iniciar y detener el laboratorio sin necesidad de ejecutar comandos manuales.
 
 # Estructura del repositorio
+
 elastic-siem-llm-homelab/
 ├─ README.md
 ├─ LICENSE
