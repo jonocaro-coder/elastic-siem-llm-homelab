@@ -15,7 +15,7 @@ El laboratorio está orientado a mostrar competencias prácticas en arquitectura
 - Aplicar principios de context engineering, definiendo qué información recibe el LLM y cómo debe trabajar con ella.
 
 # Arquitectura del laboratorio
-
+```
 Arquitectura del laboratorio
 │
 ├── Endpoints Windows
@@ -32,7 +32,7 @@ Arquitectura del laboratorio
 └── Asistente LLM
     ├── Ollama Server
     └── Prompts + Context Engineering
-
+````
 · Descripción de componentes
 
 Windows 10 VM
@@ -66,7 +66,7 @@ Plantillas y reglas que definen qué información recibe el LLM y cómo debe pro
 - Scripts de automatización para iniciar y detener el laboratorio sin necesidad de ejecutar comandos manuales.
 
 # Estructura del repositorio
-
+````
 elastic-siem-llm-homelab/
 ├─ README.md
 ├─ LICENSE
@@ -114,7 +114,7 @@ elastic-siem-llm-homelab/
 └─ notes/
    ├─ troubleshooting.md
    └─ roadmap.md
-
+````
 # Requisitos previos
 - Windows 11, Ubuntu o WSL2
 - Docker Desktop / Docker Engine
