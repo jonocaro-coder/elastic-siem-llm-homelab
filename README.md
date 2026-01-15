@@ -127,12 +127,17 @@ El laboratorio está actualmente en desarrollo.
 Las instrucciones completas de despliegue se publicarán cuando todos los componentes estén integrados y verificados.
 
 # Documentación
+La documentación conceptual y técnica se encuentra en:
+- /docs — arquitectura, diagramas y casos de uso
+- /llm-assistant — prompts, flujo de trabajo y diseño de contexto
+- /notes — troubleshooting y roadmap del proyecto
 
 # Contribuciones
-
+El proyecto está abierto a sugerencias y mejoras.
+Cualquier aportación será revisada y considerada.
 
 # Licencia
-
+MIT License.
 
 
 
