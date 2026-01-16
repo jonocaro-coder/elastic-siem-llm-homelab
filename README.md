@@ -159,10 +159,10 @@ Las instrucciones completas de despliegue se publicarán cuando todos los compon
 
 # Documentación
 La documentación conceptual y técnica se encuentra en:
-- /architecture — arquitectura y diagramas
+- /architecture - arquitectura y diagramas
 - /docs - casos de uso y estado del proyecto
-- /llm — prompts, flujo de trabajo y diseño de contexto
-- /notes — troubleshooting y roadmap del proyecto
+- /llm - prompts, flujo de trabajo y diseño de contexto
+- /notes - troubleshooting y roadmap del proyecto
 
 # Contribuciones
 El proyecto está abierto a sugerencias y mejoras.
