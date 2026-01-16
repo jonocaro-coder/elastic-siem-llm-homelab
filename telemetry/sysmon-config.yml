@@ -1,0 +1,8 @@
+<!-- Sysmon – Configuración inicial (WIP)
+     Captura de eventos esenciales para detección de actividad sospechosa -->
+
+<Sysmon schemaversion="4.82">
+  <EventFiltering>
+    <ProcessCreate onmatch="include" />
+  </EventFiltering>
+</Sysmon>
