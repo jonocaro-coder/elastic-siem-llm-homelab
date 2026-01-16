@@ -71,15 +71,21 @@ elastic-siem-llm-homelab/
 ├─ README.md
 ├─ LICENSE
 ├─ .gitignore
-├─ docs/
-│  ├─ architecture-diagram.drawio
+│
+├─ architecture/
 │  ├─ architecture-diagram.png
-│  ├─ architecture-mermaid.md
-│  └─ use-cases.md
+│  └─ architecture.md
+│
+├─ docs/
+│  ├─ use-cases.md
+│  ├─ project-status.md
+│  └─ notes.md
+│
 ├─ lab-setup/
 │  ├─ host/
 │  │  ├─ docker-compose.yml
 │  │  └─ elastic-config/
+│  │
 │  ├─ vms/
 │  │  ├─ windows-10/
 │  │  │  ├─ sysmon-config.xml
@@ -89,10 +95,12 @@ elastic-siem-llm-homelab/
 │  │  │  └─ winlogbeat.yml
 │  │  └─ ubuntu-server/
 │  │     └─ elastic-agent-notes.md
+│  │
 │  └─ scripts/
 │     ├─ start-lab.ps1
 │     ├─ stop-lab.ps1
 │     └─ helpers/
+│
 ├─ detections/
 │  ├─ windows/
 │  │  ├─ process_creation/
@@ -100,10 +108,12 @@ elastic-siem-llm-homelab/
 │  ├─ linux/
 │  │  └─ ssh_sudo/
 │  └─ kibana-export.ndjson
+│
 ├─ dashboards/
 │  ├─ windows-overview.ndjson
 │  ├─ linux-overview.ndjson
 │  └─ investigation-views.ndjson
+│
 ├─ llm-assistant/
 │  ├─ prompts/
 │  │  ├─ alert-summary.md
@@ -111,6 +121,7 @@ elastic-siem-llm-homelab/
 │  │  └─ investigation-support.md
 │  ├─ workflow.md
 │  └─ context-engineering.md
+│
 └─ notes/
    ├─ troubleshooting.md
    └─ roadmap.md
