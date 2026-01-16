@@ -1,0 +1,7 @@
+# Elastic Agent – Configuración inicial (WIP)
+# Telemetría desde Ubuntu Server hacia Elasticsearch
+
+outputs:
+  default:
+    type: elasticsearch
+    hosts: ["http://localhost:9200"]
