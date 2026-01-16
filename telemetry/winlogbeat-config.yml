@@ -1,0 +1,10 @@
+# Winlogbeat – Configuración inicial (WIP)
+# Telemetría enviada desde Windows 10 y Windows Server hacia Logstash/Elasticsearch
+
+winlogbeat.event_logs:
+  - name: Security
+  - name: System
+  - name: Microsoft-Windows-Sysmon/Operational
+
+output.elasticsearch:
+  hosts: ["http://localhost:9200"]
