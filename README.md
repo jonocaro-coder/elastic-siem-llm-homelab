@@ -136,7 +136,6 @@ elastic-siem-llm-homelab/
 # Estado del proyecto
 El laboratorio está actualmente en desarrollo.
 Las instrucciones completas de despliegue se publicarán cuando todos los componentes estén integrados y verificados.
-# Estado del Proyecto
 
 ## Completado
 - Arquitectura inicial del laboratorio definida y documentada (`architecture/`)
