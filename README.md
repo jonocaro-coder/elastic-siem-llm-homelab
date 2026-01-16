@@ -136,11 +136,32 @@ elastic-siem-llm-homelab/
 # Estado del proyecto
 El laboratorio está actualmente en desarrollo.
 Las instrucciones completas de despliegue se publicarán cuando todos los componentes estén integrados y verificados.
+# Estado del Proyecto
+
+## Completado
+- Arquitectura inicial del laboratorio definida y documentada (`architecture/`)
+- Elastic Stack desplegado en Docker con configuración propia (`lab-setup/host/elastic-config/`)
+- Estructura del repositorio estabilizada y README principal publicado
+- Telemetría real desde Windows 10 integrada (Sysmon + Winlogbeat)
+- Base del módulo LLM creada: configuración de Ollama, prompts iniciales y principios de context engineering (`llm/`)
+
+## En progreso
+- Creación y afinado de reglas de detección en Kibana (exportables a `detections/`)
+- Desarrollo de dashboards iniciales para Windows y vistas de investigación (`dashboards/`)
+- Profundización en context engineering para el asistente LLM (`llm-assistant/`)
+- Preparación de las máquinas virtuales Windows Server y Ubuntu para extender la telemetría
+
+## Pendiente
+- Integración de Elastic Agent en Ubuntu Server
+- Integración de telemetría desde Windows Server
+- Casos de uso basados en MITRE ATT&CK (`docs/use-cases.md`)
+- Automatización avanzada del laboratorio (scripts de orquestación y análisis asistido por IA)
 
 # Documentación
 La documentación conceptual y técnica se encuentra en:
-- /docs — arquitectura, diagramas y casos de uso
-- /llm-assistant — prompts, flujo de trabajo y diseño de contexto
+- /architecture — arquitectura y diagramas
+- /docs - casos de uso y estado del proyecto
+- /llm — prompts, flujo de trabajo y diseño de contexto
 - /notes — troubleshooting y roadmap del proyecto
 
 # Contribuciones
