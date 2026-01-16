@@ -1,0 +1,10 @@
+cluster.name: "elastic-siem-llm-lab"
+node.name: "elasticsearch"
+network.host: 0.0.0.0
+
+# Seguridad básica
+xpack.security.enabled: true
+xpack.security.transport.ssl.enabled: false
+
+# Modo laboratorio (sin discovery de múltiples nodos)
+discovery.type: single-node
