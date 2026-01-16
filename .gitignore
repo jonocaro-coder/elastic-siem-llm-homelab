@@ -1,0 +1,55 @@
+# ============================
+#  Variables sensibles
+# ============================
+.env
+
+# Archivo de ejemplo permitido
+# (env.example sí debe subirse)
+# env.example
+
+
+# ============================
+#  Datos persistentes de Elastic
+# ============================
+elasticsearch/data/
+elasticsearch/logs/
+logstash/logs/
+kibana/logs/
+
+
+# ============================
+#  Logs y archivos temporales
+# ============================
+*.log
+*.tmp
+*.swp
+*.bak
+
+
+# ============================
+#  Archivos de sistema
+# ============================
+.DS_Store
+Thumbs.db
+
+
+# ============================
+#  Configuración de editores
+# ============================
+.vscode/
+.idea/
+*.code-workspace
+
+
+# ============================
+#  Python cache (si usas scripts)
+# ============================
+__pycache__/
+*.pyc
+
+
+# ============================
+#  Docker
+# ============================
+# Evita subir archivos generados automáticamente
+**/.dockerignore
