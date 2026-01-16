@@ -1,0 +1,15 @@
+server.name: "kibana"
+server.host: "0.0.0.0"
+
+elasticsearch.hosts: ["http://elasticsearch:9200"]
+elasticsearch.username: "kibana_system"
+elasticsearch.password: "${KIBANA_SYSTEM_PASSWORD}"
+
+# Claves de cifrado (placeholders seguros)
+xpack.security.encryptionKey: "changemechangemechangemechangeme"
+xpack.encryptedSavedObjects.encryptionKey: "changemechangemechangemechangeme"
+xpack.reporting.encryptionKey: "changemechangemechangemechangeme"
+
+# Monitoring básico en laboratorio
+monitoring.ui.container.elasticsearch.enabled: true
+monitoring.ui.container.logstash.enabled: true
